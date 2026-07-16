@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Movie Wall</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="tab-list">
+        <div class="tab" data-target="quote-wall">
+            <p>Quote Wall</p>
+        </div>
+        <div class="tab" data-target="poster-wall">
+            <p>Poster Wall</p>
+        </div>
+    </div>
+    <div class="wall" id="quote-wall">
+        <h1>movie quotes i love ˙✧˖° ༘ ⋆｡˚</h1>
+        <div class="quote-card"
+            data-title="Lady Bird"
+            data-details="2018 · dir. Greta Gerwig"
+            data-poster="https://image.tmdb.org/t/p/w1280/gl66K7zRdtNYGrxyS2YDUP5ASZd.jpg">
+            <p class="quote-text">"What if this is the best version?"</p> 
+            <p class="quote-context">Lady Bird to her mom, in the fitting room</p>
+            <p class="movie-name">Lady Bird</p>
+        </div>
+        <div class="quote-card"
+            data-title="Past Lives"
+            data-details="2023 · dir. Celine Song · In-yun means providence, or fate."
+            data-poster="https://image.tmdb.org/t/p/w500/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg">
+        <p class="quote-text">"You dream in a language that I can't understand."</p>
+        <p class="quote-context">Arthur to Nora, in bed, about her sleep-talking in Korean</p>
+        <p class="movie-name">Past Lives</p>
+        </div>
+        <div class="quote-card"
+            data-title="Before Sunrise"
+            data-details="1995 · dir. Richard Linklater"
+            data-poster="https://image.tmdb.org/t/p/w1280/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg">
+            <p class="quote-text">“But isn't everything we do in life a way to be loved a little more?”</p>
+            <p class="quote-context">Celine to Jesse</p>
+            <p class="movie-name">Before Sunrise</p>
+        </div>
+    </div>
+    <div class="wall" id="poster-wall">
+        <div class="poster-item"
+            data-title="Lady Bird"
+            data-details="2018 · dir. Greta Gerwig"
+            data-poster="https://image.tmdb.org/t/p/w1280/gl66K7zRdtNYGrxyS2YDUP5ASZd.jpg">
+            <img src="https://image.tmdb.org/t/p/w1280/gl66K7zRdtNYGrxyS2YDUP5ASZd.jpg" alt="Lady Bird poster">
+        </div>
+        <div class="poster-item"
+            data-title="Past Lives"
+            data-details="2023 · dir. Celine Song · In-yun means providence, or fate."
+            data-poster="https://image.tmdb.org/t/p/w500/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg">
+            <img src="https://image.tmdb.org/t/p/w500/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg" alt="Past Lives poster">
+        </div>
+        <div class="poster-item"
+            data-title="Before Sunrise"
+            data-details="1995 · dir. Richard Linklater"
+            data-poster="https://image.tmdb.org/t/p/w1280/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg">
+            <img src="https://image.tmdb.org/t/p/w1280/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg" alt="Before Sunrise poster">
+        </div>
+    </div>
+    <div class="modal-overlay" id="modal">
+        <div class="modal-box">
+            <img class="modal-poster" src="" alt="movie poster">
+            <h2 class="modal-title"></h2>
+            <p class="modal-details"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
