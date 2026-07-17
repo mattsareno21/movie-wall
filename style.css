@@ -61,8 +61,8 @@ body {
   border-radius: 8px;
 }
 
-#quote-wall, {
-    display:none;
+.wall{
+    display: none;
 }
 
 #quote-wall.show {
@@ -76,7 +76,7 @@ body {
 }
 
 #home-wall.show {
-  display:block;
+  display: block;
 }
 
 .poster-item img {
