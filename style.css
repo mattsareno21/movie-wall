@@ -65,6 +65,10 @@ body {
     display:none;
 }
 
+#home-wall {
+    display: block;
+}
+
 #quote-wall.show {
   display: block;
 }
